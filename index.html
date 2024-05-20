@@ -3,7 +3,7 @@
  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Резюме</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="./index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,86 +14,121 @@
  </head>
  <body>
   <main>
-   <section class="header-section">
-    <h1>Хуртик Игорь</h1>
-    <h2>Frontend Web - разработчик</h2>
-   </section>
-   <div class="about-me">
-    <h4>О себе:</h4>
-    <p>
-     Желаю построить карьеру в сфере IT , большой интерес к программному коду и
-     созданию интересного интерфейса и функционала. Готов к постоянному обучению
-     для профессионального роста.
-    </p>
+   <header>
+    <div class="header-container">
+     <h1>Хуртик Игорь</h1>
+     <p class="header-text">Junior Frontend-developer</p>
+    </div>
+   </header>
+
+   <div class="header-bottom">
+    <p>Место проживания: Россия, г.Воронеж</p>
+    <p>Дата рождения: 21.11.1992 (31год)</p>
    </div>
 
    <section>
-    <div class="card-block">
-     <h4>Навыки:</h4>
-     <ul>
-      <li>HTML</li>
-      <li>CSS,SCSS/Sass</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Git</li>
-      <li>Bootstrap</li>
-      <li>Redux/Redux toolkit (на изучении)</li>
-      <li>TypeScript (на изучении)</li>
-     </ul>
-    </div>
-
-    <div class="card-block">
-     <h4>Языки:</h4>
-     <ul>
-      <li>Русский</li>
-      <li>Английский</li>
-      <li>Украинский</li>
-     </ul>
-    </div>
-
-    <div class="card-block">
-     <h4>Обучение:</h4>
-     <ul>
-      <li>FreeCodeCamp</li>
-      <li>HTML Academy</li>
-      <li>Learn JavaScript</li>
-     </ul>
-    </div>
-   </section>
-
-   <section>
-    <div class="card-block">
-     <h4 class="card-title">Портфолио:</h4>
-     <div>
-      <ul>
-       <li>
-        <a href="https://wtube.vercel.app/">Онлайн кинотеатр (с VPN)</a>
-       </li>
-      </ul>
-     </div>
-    </div>
-
-    <div class="card-block">
-     <h4 class="card-title">Прочие навыки:</h4>
-     <ul>
-      <li>Коммуникабельность</li>
-      <li>Быстрая обучаемость</li>
-      <li>Способоность найти общий язык</li>
-     </ul>
-    </div>
-   </section>
-
-   <div class="contact-me">
-    <h4>Контактная информация:</h4>
+    <h2>Контактная информация:</h2>
     <ul>
      <li>Телефон: 8-915-548-23-91</li>
      <li>Телеграмм: @Khurtik / 8-915-548-23-91</li>
      <li>Емайл: hurtik.igor@gmail.com</li>
      <li>
       Github:
-      <a href="#">https://github.com/Ncomest</a>
+      <a href="">https://github.com/Ncomest</a>
      </li>
     </ul>
+   </section>
+
+   <section>
+    <h2>Образование</h2>
+    <div class="section_container">
+     <h5>2009-2013</h5>
+     <p>ДЭМТ</p>
+     <p>Обслуживание и ремонт оборудования металлургического производства</p>
+    </div>
+    <h2>Дополнительное образование</h2>
+    <div class="section_container">
+     <h5>2021-2024</h5>
+     <ul>
+      <li>
+       Responsive Web Design от <b>FreeCodeCamp</b>
+       <a
+        href="https://www.freecodecamp.org/certification/Khurtik/responsive-web-design"
+        target="_blank"
+        >cертификат</a
+       >
+      </li>
+      <li>
+       <b>Codewars</b> - решение задач
+       <a href="https://www.codewars.com/users/Ncome">профиль</a>
+      </li>
+     </ul>
+    </div>
+   </section>
+
+   <section>
+    <h2>Навыки:</h2>
+    <ul>
+     <li><b>HTML, CSS/SCSS</b> - создание адаптивного интерфейса и анимаций</li>
+     <li><b>JavaScript</b> - добавление интерактивности сайту</li>
+     <li>
+      <b>React</b>
+      - создание функциональных компонентов с использованием хуков, роута и
+      других библиотек
+     </li>
+     <li><b>Git</b> - push, pull/request , merge и тд</li>
+     <li><b>React Redux/toolkit</b> - в обучении</li>
+     <li><b>TypeScript</b> - в обучении</li>
+    </ul>
+   </section>
+
+   <section>
+    <h2>Опыт разработки:</h2>
+    <div class="section_container">
+     <p>
+      Разработал web-сайт на React.js с базой данных фильмов , использовал чаще
+      всего хуки для сохранения состояния и жизненого цикла, так же в проекте
+      есть useRef для обращения к нужному объекту в доме и для хранения данных,
+      useContext для передачи состояния в нужный компонент. Для перехода между
+      страницами использовал реакт роутер. Добавил поиск и фильтрацию карточек
+      фильмов.Проект можно посмотреть на моем гитхаб
+      <a href="https://wtube.vercel.app/">WTube</a> (учебный)
+     </p>
+
+     <ul>
+      Чем пользовался в проекте и что реализованно:
+      <li>Адаптивная верстка</li>
+      <li>Flex/Grid</li>
+      <li>useState, useEffect, useRef, useContext</li>
+      <li>React Router</li>
+      <li>API</li>
+      <li>Форма входа и регистрации, авторизация, личный кабинет</li>
+      <li>Использовал Local и Session Storage для хранения списка страниц</li>
+      <li>Слайдер</li>
+      <li>Карусель с использованием реакт библиотеки</li>
+      <li>Переключение языка</li>
+      <li>Реализован поиск, фильтрация и сортировка</li>
+     </ul>
+    </div>
+   </section>
+
+   <div>
+    <h2>Языки:</h2>
+    <ul>
+     <li>Русский</li>
+     <li>Английский (технический)</li>
+    </ul>
+   </div>
+
+   <div>
+    <h2>О себе:</h2>
+    <div class="section_container">
+     <p>
+      Желаю построить карьеру в сфере IT , большой интерес к программному коду и
+      созданию интересного интерфейса и функционала. Готов к постоянному
+      обучению для профессионального роста.
+     </p>
+    </div>
    </div>
   </main>
  </body>
